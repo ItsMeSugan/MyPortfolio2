@@ -2,5 +2,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family:'Outfit', Courier, monospace
+  font-family: "Outfit", Courier, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
 }
