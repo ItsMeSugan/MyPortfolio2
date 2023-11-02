@@ -24,7 +24,11 @@ function About() {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="cursor Icon" />
+            <img
+              src={getImageUrl("about/atom.png")}
+              alt="cursor Icon"
+              className={styles.reactIcon}
+            />
             <div className={styles.aboutItemText}>
               <h3>React Developer</h3>
               <p>

@@ -6,9 +6,10 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 49px;
+  padding: 10px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .content {
@@ -25,6 +26,7 @@
   margin-bottom: 33px;
   font-family: var(--font-roboto);
   background: linear-gradient(
+    90deg,
     rgba(255, 255, 255, 1) 70%,
     rgba(255, 255, 255, 0) 120%
   );
@@ -106,5 +108,15 @@
 
   .content {
     align-items: center;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .description {
+    font-size: 25px;
+    font-family: var(--color-primary);
+    margin-bottom: 52px;
   }
 }

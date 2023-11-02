@@ -1,0 +1,38 @@
+[
+  {
+    "role": "Responsive Web Design Course",
+    "organisation": "freeCodeCamp",
+    "startDate": "Apr, 2023",
+    "endDate": "300 hours of work",
+    "experiences": [
+      "Worked on Flexbox and Grid layout",
+      "Developed a Product Landing page and personal porfolio"
+    ],
+    "imageSrc": "history/Responsive.png",
+    "certification": "https://freecodecamp.org/certification/Suganeeshwaran_T/responsive-web-design"
+  },
+  {
+    "role": "The Complete Javascript Course",
+    "organisation": "Udemy",
+    "startDate": "July, 2023",
+    "endDate": "68.5 hours of training",
+    "experiences": [
+      "JavaScript fundamentals, Modern OOP, Asynchronous JavaScript",
+      "Practiced 50+ challenges and assignments"
+    ],
+    "imageSrc": "history/js.png",
+    "certification": "https://www.udemy.com/certificate/UC-f89f079c-2ae2-41d6-9461-025dc37aaf78/"
+  },
+  {
+    "role": "The Ultimate React Course",
+    "organisation": "Udemy",
+    "startDate": "Dec, 2023",
+    "endDate": "67 total hours",
+    "experiences": [
+      "Advanced React features, state management, Behind the scenes",
+      "Practiced with many challenges, exercises, and Realtime projects"
+    ],
+    "imageSrc": "history/React.png",
+    "certification": "https://www.udemy.com/certificate/"
+  }
+]

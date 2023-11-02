@@ -1,15 +1,15 @@
 import styles from "../Hero/Hero.module.css";
 import { getImageUrl } from "../../utilis";
 
-export const Hero = () => {
+function Hero() {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Sugan</h1>
         <p className={styles.description}>
-          Hello, my name is Sugan T, and I am excited to introduce myself as a
-          front-end developer. Graduated at 2020, I have gained practical
-          experience through various personal projects.
+          I am excited to introduce myself as a front-end developer. Graduated
+          at 2020, I have gained practical experience through various personal
+          projects.
         </p>
         <a
           href="mailto:t.suganeeshwaran@gmail.com"
@@ -27,4 +27,6 @@ export const Hero = () => {
       <div className={styles.bottomBlur} />
     </section>
   );
-};
+}
+
+export default Hero;
