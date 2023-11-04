@@ -4,13 +4,16 @@ import styles from "./About.module.css";
 function About() {
   return (
     <section className={styles.container} id="about">
+
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
+
         <img
           src={getImageUrl("about/aboutImage.png")}
           alt="Me sitting with the laptop"
           className={styles.aboutImage}
         />
+        
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor Icon" />
@@ -49,8 +52,10 @@ function About() {
               </p>
             </div>
           </li>
+      
         </ul>
       </div>
+
     </section>
   );
 }
